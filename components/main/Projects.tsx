@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { projects } from "@/components/data/projects"
 
-// Un rectangle pour une image. S'il n'y a pas encore d'image, il reste gris.
+// Un rectangle pour une image. S'il n'y a pas encore d'image, il reste blanc
 function Visuel({ src, alt, className }: { src?: string; alt: string; className: string }) {
     return (
         <div className={`relative overflow-hidden rounded-md bg-white ${className}`}>
@@ -13,7 +13,7 @@ function Visuel({ src, alt, className }: { src?: string; alt: string; className:
 // Section Réalisations : projets réalisés
 export default function Projects() {
     return (
-        <section className="w-full">
+        <section id="projects" className="w-full scroll-mt-24">
             {/* Bande blanche : le titre */}
             <div className="px-3 py-6 md:px-12 md:py-20">
                 <h2 className="text-black font-medium">Réalisations</h2>
@@ -37,10 +37,10 @@ export default function Projects() {
                     </div>
 
                     <div className="mt-8 flex flex-col gap-4">
-                        <Visuel src={projet.images[0]} alt={projet.titre} className="h-56 w-full md:h-96" />
+                        <Visuel src={projet.images[0]} alt={projet.titre} className="h-75 w-full md:h-150" />
                         <div className="flex gap-4">
-                            <Visuel src={projet.images[1]} alt={projet.titre} className="h-40 flex-1 md:h-64" />
-                            <Visuel src={projet.images[2]} alt={projet.titre} className="h-40 flex-1 md:h-64" />
+                            <Visuel src={projet.images[1]} alt={projet.titre} className="h-60 flex-1 md:h-90" />
+                            <Visuel src={projet.images[2]} alt={projet.titre} className="h-60 flex-1 md:h-90" />
                         </div>
                     </div>
                 </article>

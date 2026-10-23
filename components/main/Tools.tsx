@@ -4,7 +4,7 @@ import { tools } from "@/components/data/tools"
 // Section Trouvailles : ressources et outils utiles
 export default function Tools() {
     return (
-        <section className="w-full">
+        <section id="tools" className="w-full scroll-mt-24">
             {/* Bande blanche : le titre */}
             <div className="px-3 py-6 md:px-12 md:py-20">
                 <h2 className="text-black font-medium">Trouvailles</h2>
