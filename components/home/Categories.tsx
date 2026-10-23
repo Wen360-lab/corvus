@@ -4,9 +4,9 @@ import { categories } from "@/components/data/categories"
 // Section Catégories : les domaines de création
 export default function Categories() {
     return (
-        <section id="categories" className="w-full scroll-mt-24 px-3 py-12 md:px-12 md:py-20">
-            <h2 className="text-black font-medium">Catégories</h2>
-            <p className="text-charbon">Explorer la diversité de l&apos;art</p>
+        <section id="categories" className="w-full scroll-mt-24 px-3 py-12 md:px-12 md:pt-20">
+            <h2 className="text-black font-medium text-4xl">Catégories</h2>
+            <p className="text-charbon text-xl">Explorer la diversité de l&apos;art</p>
 
             <div className="mt-8 grid gap-4 md:grid-cols-3">
                 {categories.map((categorie) => (

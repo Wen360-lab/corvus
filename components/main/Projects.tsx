@@ -16,8 +16,8 @@ export default function Projects() {
         <section id="projects" className="w-full scroll-mt-24">
             {/* Bande blanche : le titre */}
             <div className="px-3 py-6 md:px-12 md:py-20">
-                <h2 className="text-black font-medium">Réalisations</h2>
-                <p className="text-charbon">Des idées à des projets concrets</p>
+                <h2 className="text-black font-medium text-4xl">Réalisations</h2>
+                <p className="text-charbon text-xl">Des idées à des projets concrets</p>
             </div>
 
             {/* Un bloc bleu marine par projet */}

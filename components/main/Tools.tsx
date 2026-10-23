@@ -7,8 +7,8 @@ export default function Tools() {
         <section id="tools" className="w-full scroll-mt-24">
             {/* Bande blanche : le titre */}
             <div className="px-3 py-6 md:px-12 md:py-20">
-                <h2 className="text-black font-medium">Trouvailles</h2>
-                <p className="text-charbon">Toutes les ressources utiles et inimaginables</p>
+                <h2 className="text-black font-medium text-4xl">Trouvailles</h2>
+                <p className="text-charbon text-xl">Toutes les ressources utiles et inimaginables</p>
             </div>
 
             {/* Un bloc bleu marine par outil */}
