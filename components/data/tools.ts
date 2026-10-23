@@ -14,6 +14,7 @@ export const tools: Outil[] = [
         nom: "Nom de l'outil",
         description: "Description de ce que fait l'outil.",
         lien: "https://www.outils.com",
+        image: "/tools/",
     }, 
     
     {
@@ -21,5 +22,6 @@ export const tools: Outil[] = [
         nom: "Nom de l'outil",
         description: "Description de ce que fait l'outil.",
         lien: "https://www.outils.com",
+        image: "/tools/",
     },
 ]
