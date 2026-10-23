@@ -2,7 +2,6 @@ import Header from '../components/home/Header'
 import Hero from '../components/home/Hero'
 import Projects from '../components/main/Projects'
 import Tools from '../components/main/Tools'
-import Footer from '../components/footer/Footer'
 import Categories from '../components/home/Categories'
 
 
@@ -16,7 +15,6 @@ export default function Home() {
         <Projects />
         <Tools />
       </main>
-      <Footer />
     </div>
   );
 }
