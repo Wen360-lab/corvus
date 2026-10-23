@@ -25,6 +25,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     background: var(--background);

@@ -1,6 +1,7 @@
 import Header from '../components/home/Header'
 import Hero from '../components/home/Hero'
 import Projects from '../components/main/Projects'
+import Tools from '../components/main/Tools'
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <main  className="flex flex-col w-full">
         <Projects />
+        <Tools />
       </main>
     </div>
   );

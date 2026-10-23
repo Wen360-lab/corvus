@@ -4,7 +4,7 @@ import { projects } from "@/components/data/projects"
 // Un rectangle pour une image. S'il n'y a pas encore d'image, il reste gris.
 function Visuel({ src, alt, className }: { src?: string; alt: string; className: string }) {
     return (
-        <div className={`relative overflow-hidden rounded-md bg-neutral-300 ${className}`}>
+        <div className={`relative overflow-hidden rounded-md bg-white ${className}`}>
             {src && <Image src={src} alt={alt} fill className="object-cover" />}
         </div>
     )
@@ -22,7 +22,7 @@ export default function Projects() {
 
             {/* Un bloc bleu marine par projet */}
             {projects.map((projet, index) => (
-                <article key={projet.id} className="bg-navy px-3 py-8 text-white md:px-12 md:py-16">
+                <article key={projet.id} className="bg-navy px-3 py-8 text-white md:px-12 md:py-16 border-t-8 border-whitesmoke">
                     <div className="text-right">
                         <p className="font-medium">PROJET N°{index + 1}</p>
                         <p className="text-sm">{projet.categorie}</p>
