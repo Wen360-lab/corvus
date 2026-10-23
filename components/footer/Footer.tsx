@@ -17,6 +17,9 @@ const reseaux = [
     // { label: "Instagram", href: "https://www.instagram.com/" },
 ]
 
+// Contacts : email, pays, ville tel etc.
+const contact = ["wenetchou330@gmail.com", "Libreville/Gabon"]
+
 export default function Footer() {
     return (
         <footer className="w-full overflow-hidden bg-white text-charbon">
@@ -76,6 +79,17 @@ export default function Footer() {
                                     </li>
                                 ))}
                             </ul>
+                        </div>   
+                        
+                        {/* Colonne 4 : Contact */}
+                        <div>
+                            <h3 className="mb-3 text-sm font-medium">Contact</h3>
+                        
+                            <ul className="flex flex-col gap-2 text-sm">
+                                {contact.map((contact) => (
+                                    <li key={contact}>{contact}</li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -83,6 +97,7 @@ export default function Footer() {
                 {/* Milieu : mentions */}
                 <div className="mt-16 flex flex-col gap-2 text-xs md:mt-24 md:flex-row md:justify-between">
                     <p>©2026 Corvus Tous droits réservés.</p>
+                    <Link href="/mentions-legales">Mentions légales</Link>
                     <p>Conception et réalisation par Wen Etchou</p>
                 </div>
             </div>

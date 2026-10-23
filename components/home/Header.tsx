@@ -11,13 +11,15 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
        <header className="fixed top-6 inset-x-4 md:inset-x-10 z-50 flex items-center justify-between px-4 md:px-10 md:py-6 py-8 bg-whitesmoke shadow rounded-xl">
-            <Image
-                src="/corvus-logotype2.svg"
-                alt="corbeau"
-                width={90}
-                height={30}
-                className="w-35 h-auto"
-            />
+            <Link href="/" aria-label="Retour à l'accueil">
+                 <Image
+                    src="/corvus-logotype2.svg"
+                    alt="corbeau"
+                    width={90}
+                    height={30}
+                    className="w-35 h-auto"
+                />
+            </Link>
 
             <nav className="hidden lg:block px-2">
                 <ul className="flex gap-8">
