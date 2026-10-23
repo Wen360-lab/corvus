@@ -38,7 +38,7 @@ export default function Header() {
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Ouvrir le menu"
             >
-                {menuOpen ? <HiX size={28} /> : <HiMenu size={28} />}
+                {menuOpen ? <HiX size={30} /> : <HiMenu size={30} />}
             </button>
 
             {menuOpen && (
