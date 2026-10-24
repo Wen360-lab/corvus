@@ -24,10 +24,10 @@ export default function About() {
                     Description simple de ce qu&apos;est Corvus, ses objectifs, ses ambitions.
                 </p>
                 <Image
-                    src="/corbeau.svg"
+                    src="/Logo-1.svg"
                     alt=""
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                     className="h-auto w-24 md:w-44"
                 />
             </section>
