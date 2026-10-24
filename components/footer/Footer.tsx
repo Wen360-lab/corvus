@@ -6,7 +6,7 @@ const liensRapides = [
     { label: "Accueil", href: "/" },
     { label: "Réalisations", href: "/#projects" },
     { label: "Trouvailles", href: "/#tools" },
-    { label: "À propos", href: "/#about" },
+    { label: "À propos", href: "/a-propos" },
 ]
 
 // Domaines : une simple liste de mots

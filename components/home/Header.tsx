@@ -25,7 +25,7 @@ export default function Header() {
                 <ul className="flex gap-8">
                     <li className="text-grey font-medium cursor-pointer hover:opacity-80 transition-opacity"><Link href="/#projects" >Réalisations</Link></li>
                     <li className="text-grey font-medium cursor-pointer hover:opacity-80 transition-opacity"><Link href="/#tools" >Trouvailles</Link></li>
-                    <li className="text-grey font-medium cursor-pointer hover:opacity-80 transition-opacity"><Link href="/#about" >À propos</Link></li>
+                    <li className="text-grey font-medium cursor-pointer hover:opacity-80 transition-opacity"><Link href="/a-propos" >À propos</Link></li>
                 </ul>
             </nav>
 
@@ -51,7 +51,7 @@ export default function Header() {
                         <ul className="flex flex-col items-center gap-6 py-6">
                             <li className="text-white font-medium"><Link href="/#projects" onClick={() => setMenuOpen(false)}>Réalisations</Link></li>
                             <li className="text-white font-medium"><Link href="/#tools" onClick={() => setMenuOpen(false)}>Trouvailles</Link></li>
-                            <li className="text-white font-medium"><Link href="/#about" onClick={() => setMenuOpen(false)}>À propos</Link></li>
+                            <li className="text-white font-medium"><Link href="/a-propos" onClick={() => setMenuOpen(false)}>À propos</Link></li>
                         </ul>
 
                         <a
