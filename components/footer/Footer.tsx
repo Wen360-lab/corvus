@@ -17,9 +17,6 @@ const reseaux = [
     // { label: "Instagram", href: "https://www.instagram.com/" },
 ]
 
-// Contacts : email, pays, ville tel etc.
-const contact = ["wenetchou330@gmail.com", "Libreville/Gabon"]
-
 export default function Footer() {
     return (
         <footer className="w-full overflow-hidden bg-white text-charbon">
@@ -81,14 +78,20 @@ export default function Footer() {
                             </ul>
                         </div>   
                         
-                        {/* Colonne 4 : Contact */}
-                        <div>
+                       {/* Colonne 4 : Contact */}
+                        <div className="col-span-2 md:col-span-1">
                             <h3 className="mb-3 text-sm font-medium">Contact</h3>
-                        
+
                             <ul className="flex flex-col gap-2 text-sm">
-                                {contact.map((contact) => (
-                                    <li key={contact}>{contact}</li>
-                                ))}
+                                <li>
+                                    <a
+                                        href="mailto:wenetchou330@gmail.com"
+                                        className="break-all hover:opacity-70 transition-opacity"
+                                    >
+                                        wenetchou330@gmail.com
+                                    </a>
+                                </li>
+                                <li>Libreville/Gabon</li>
                             </ul>
                         </div>
                     </div>
