@@ -17,11 +17,19 @@ export const tools: Outil[] = [
         image: "/tools/feralui.dev_gradient_sceenshot.png",
     }, 
     
-    // {
-    //     id: 2,
-    //     nom: "Nom de l'outil",
-    //     description: "Description de ce que fait l'outil.",
-    //     lien: "https://www.outils.com",
-    //     image: "/tools/",
-    // },
+    {
+        id: 2,
+        nom: "SVGL",
+        description: "SVGL est une bibliothèque de logos de marques et d’outils au format SVG, nets à toutes les tailles. On les trouve par recherche ou par catégorie (IA, design, paiement, hébergement...), souvent en version claire et sombre. Le projet est ouvert et propose aussi une API et des extensions.",
+        lien: "https://www.svgl.app",
+        image: "/tools/svgl.png",
+    },
+
+    {
+        id: 3,
+        nom: "1001Fonts",
+        description: "1001 Fonts est un annuaire de milliers de polices gratuites, créées par des designers indépendants et classées par style (manuscrit, serif, display...). Chaque police affiche sa licence, ce qui permet de savoir si elle est réservée à un usage personnel ou utilisable aussi dans des projets commerciaux.",
+        lien: "https://www.1001fonts.com/",
+        image: "/tools/1001Fonts.png",
+    },
 ]

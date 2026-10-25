@@ -23,7 +23,7 @@ export default function About() {
                     fill
                     priority
                     sizes="100vw"
-                    className="object-cover"
+                    className="hidden object-cover md:block"
                 />
             </div>
 
