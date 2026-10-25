@@ -12,7 +12,7 @@ export default function Hero() {
 
       {/* Calque du texte, au-dessus du fond */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-        <h1 className="text-white font-bold heading">Laisser libre court à sa créativité.</h1>
+        <h1 className="text-white font-bold heading">Laisser libre cours à sa créativité.</h1>
       </div>
     </section>
   )

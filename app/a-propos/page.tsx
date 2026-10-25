@@ -3,7 +3,7 @@ import Link from "next/link"
 import { categories } from "@/components/data/categories"
 
 export const metadata = {
-    title: "À propos | Corvus",
+    title: "À propos de Corvus",
     description: "L'histoire de Corvus et de son auteur.",
 }
 
@@ -12,11 +12,20 @@ export default function About() {
         <main className="px-3 pt-40 pb-16 md:px-12 md:pt-40 md:pb-24">
             {/* Titre et bannière */}
             <Link href="/" className="text-sm underline text-navy">Retour à l&apos;accueil</Link>
-            <h1 className="text-black font-medium">À propos</h1>
+            <h1 className="text-charbon font-medium">À propos</h1>
             <div
-                className="mt-8 h-48 rounded-md md:h-72"
+                className="relative mt-8 h-48 overflow-hidden rounded-md md:h-72"
                 style={{ background: "linear-gradient(180deg, #0050a8 0%, #001a38 100%)" }}
-            />
+            >
+                <Image
+                    src="/about_image_corvus.svg"
+                    alt="symbole_corvus"
+                    fill
+                    priority
+                    sizes="100vw"
+                    className="object-cover"
+                />
+            </div>
 
             {/* Description de Corvus, avec le corbeau */}
             <section className="mt-16 flex flex-col gap-8 md:mt-24 md:flex-row md:items-center md:justify-between">
@@ -25,7 +34,7 @@ export default function About() {
                 </p>
                 <Image
                     src="/Logo-1.svg"
-                    alt=""
+                    alt="logo de corvus"
                     width={300}
                     height={300}
                     className="h-auto w-24 md:w-44"
@@ -73,7 +82,7 @@ export default function About() {
             <section className="mt-16 md:mt-24">
                 <h2 className="text-3xl font-medium md:text-5xl">Les moyens de me contacter</h2>
                 <div className="mt-6 flex flex-col gap-2 text-lg md:text-2xl">
-                    <a href="mailto:wenetchou330@gmail.com" className="underline break-all">
+                    <a href="mailto:wenetchou330@gmail.com" target="blank" className="underline break-all">
                         wenetchou330@gmail.com
                     </a>
                     <a

@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export const metadata = {
-    title: "Mentions légales | Corvus",
+    title: "Mentions légales - Corvus",
 }
 
 export default function MentionsLegales() {
@@ -14,8 +14,8 @@ export default function MentionsLegales() {
                 <section>
                     <h2 className="text-charbon font-semibold">Éditeur du site</h2>
                     <p className="mt-2">
-                        Ce site est édité par MAKANAGA ETCHOU Wen Joanel.
-                        Contact : <a href="mailto:wenetchou330@gmail.com" className="underline">wenetchou330@gmail.com</a>
+                        Ce site est édité par <span className="font-bold">Wen ETCHOU</span>.
+                        Contact : <a href="mailto:wenetchou330@gmail.com" target="blank" className="underline">wenetchou330@gmail.com</a>
                     </p>
                 </section>
 

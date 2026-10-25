@@ -22,6 +22,6 @@ export const projects: Projet[] = [
         titre: "Corvus Design",
         categorie: "Graphisme",
         description: "Identité visuelle autour d'un corbeau.",
-        images: ["/projects/Signboard_Mockup_1_V2.png", "/projects/MacBook_Mockup_3.png","/projects/Free_Baseball_Cap_Mockup_1.png", "/projects/Bag_Chair_Mockup_ 4.png"],
+        images: ["/projects/Signboard_Mockup_1_V2.png", "/projects/MacBook_Mockup_3.png","/projects/Free_Baseball_Cap_Mockup_1.png", "/projects/Bag_Chair_Mockup_4.png"],
     },
 ]

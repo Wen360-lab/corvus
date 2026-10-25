@@ -30,7 +30,7 @@ export default function Header() {
             </nav>
 
             <a
-                href="https://www.behance.net/ton-profil"
+                href="https://www.behance.net/wenetchou"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:block bg-navy font-semibold text-white px-6 py-3 rounded-xl hover:opacity-80 transition-opacity"
@@ -55,7 +55,7 @@ export default function Header() {
                         </ul>
 
                         <a
-                            href="https://www.behance.net/ton-profil"
+                            href="https://www.behance.net/wenetchou"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-white font-semibold text-navy px-6 py-2 rounded-xl"

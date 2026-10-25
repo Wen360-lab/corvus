@@ -31,7 +31,7 @@ export default function Footer() {
                             height={30}
                             className="h-auto w-28"
                         />
-                        <p className="mt-2 text-sm">Corvus rassemble mes réalisations en design et une sélection de ressources utiles pour créer. Un espace pour laisser libre cours à ma créativité en fait.</p>
+                        <p className="mt-2 text-sm">Corvus rassemble mes réalisations en design et une sélection de ressources utiles pour créer. Un espace pour laisser libre cours à ma créativité.</p>
                     </div>
 
                     <div className="grid grid-cols-2 gap-8 md:flex md:gap-16">
