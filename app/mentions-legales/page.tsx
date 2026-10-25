@@ -55,7 +55,7 @@ export default function MentionsLegales() {
                 <section>
                     <h2 className="text-charbon font-semibold">Sécurité</h2>
                     <p className="mt-2">
-                        Tous les liens partagez sur ce site sont vérifiés et testez par moi-même, il n&apos; y a donc aucun risque à les consulter. Je garantie de toujours vérifier les sources de chaque site/application avant toute publication sur Corvsus. <br /> Par ailleurs, si vous rencontrer des soucis avec l&apos; un de ces outils, s&apos; il vous plaît veuillez me contacter.
+                        Tous les liens partagez sur ce site sont vérifiés et testés par moi-même, il n&apos; y a donc aucun risque à les consulter. Je garantie de toujours vérifier les sources de chaque site/application avant toute publication sur Corvsus. <br /> Par ailleurs, si vous rencontrez des soucis avec l&apos; un de ces outils, s&apos; il vous plaît veuillez me contacter.
                     </p>
                 </section>
             </div>
