@@ -18,7 +18,7 @@ export default function Tools() {
                     className="flex flex-col gap-6 bg-navy px-3 py-8 text-white md:flex-row md:gap-12 md:px-12 md:py-12 border-t-8 border-whitesmoke"
                 >
                     {/* Image à gauche */}
-                    <div className="relative aspect-video w-full overflow-hidden rounded-md bg-white md:aspect-square md:w-2/5">
+                   <div className="relative aspect-video w-full overflow-hidden rounded-md bg-white md:w-1/2">
                         {outil.image && (
                             <Image src={outil.image} alt={outil.nom} fill className="object-cover" />
                         )}
@@ -26,15 +26,15 @@ export default function Tools() {
 
                     {/* Texte à droite */}
                     <div className="flex flex-1 flex-col justify-between gap-6">
-                        <h3 className="text-right text-2xl italic">{outil.nom}</h3>
-                        <p className="text-sm md:text-right">{outil.description}</p>
+                        <h3 className="text-right text-2xl">{outil.nom}</h3>
+                        <p className="text-sm text-justify">{outil.description}</p>
                         <p className="text-right text-sm">
                             Lien de l&apos;outil :{" "}
                             <a
                                 href={outil.lien}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="underline hover:opacity-80"
+                                className="underline hover:opacity-80 italic"
                             >
                                 {outil.lien}
                             </a>

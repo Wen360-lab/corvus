@@ -9,19 +9,19 @@ export type Projet = {
 }
 
 export const projects: Projet[] = [
-    {
-        id: 1,
-        titre: "Portail Portfolio",
-        categorie: "UI/UX Design",
-        description:
-            "Portail portfolio est une plateforme web dont le but est de centraliser les développeurs en formation à l'École 241, plus précisément la promo 14.",
-        images: [],
-    },
+    // {
+    //     id: 1,
+    //     titre: "Prezence",
+    //     categorie: "UI/UX Design",
+    //     description:
+    //         "Prezence est une apllication web permettant de gérer plus efficacment l'assiduité des élèves.",
+    //     images: [],
+    // },
     {
         id: 2,
         titre: "Corvus Design",
         categorie: "Graphisme",
         description: "Identité visuelle autour d'un corbeau.",
-        images: [],
+        images: ["/projects/Signboard_Mockup_1_V2.png", "/projects/MacBook_Mockup_3.png","/projects/Free_Baseball_Cap_Mockup_1.png", "/projects/Bag_Chair_Mockup_ 4.png"],
     },
 ]

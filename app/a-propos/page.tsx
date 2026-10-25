@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function About() {
     return (
-        <main className="px-3 pt-32 pb-16 md:px-12 md:pt-40 md:pb-24">
+        <main className="px-3 pt-40 pb-16 md:px-12 md:pt-40 md:pb-24">
             {/* Titre et bannière */}
             <Link href="/" className="text-sm underline text-navy">Retour à l&apos;accueil</Link>
             <h1 className="text-black font-medium">À propos</h1>

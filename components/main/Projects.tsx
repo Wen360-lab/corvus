@@ -39,9 +39,10 @@ export default function Projects() {
                     <div className="mt-8 flex flex-col gap-4">
                         <Visuel src={projet.images[0]} alt={projet.titre} className="h-75 w-full md:h-150" />
                         <div className="flex gap-4">
-                            <Visuel src={projet.images[1]} alt={projet.titre} className="h-60 flex-1 md:h-90" />
-                            <Visuel src={projet.images[2]} alt={projet.titre} className="h-60 flex-1 md:h-90" />
+                            <Visuel src={projet.images[1]} alt={projet.titre} className="h-60 flex-1 md:h-150" />
+                            <Visuel src={projet.images[2]} alt={projet.titre} className="h-60 flex-1 md:h-150" />
                         </div>
+                        <Visuel src={projet.images[3]} alt={projet.titre} className="h-75 w-full md:h-150" />
                     </div>
                 </article>
             ))}
